@@ -1,0 +1,7 @@
+/Users/admin/Desktop/DoAn1_Lab3/Lab3/obj/Debug/netcoreapp3.1/Lab3.csprojAssemblyReference.cache
+/Users/admin/Desktop/DoAn1_Lab3/Lab3/obj/Debug/netcoreapp3.1/Lab3.csproj.CoreCompileInputs.cache
+/Users/admin/Desktop/DoAn1_Lab3/Lab3/obj/Debug/netcoreapp3.1/Lab3.MvcApplicationPartsAssemblyInfo.cache
+/Users/admin/Desktop/DoAn1_Lab3/Lab3/obj/Debug/netcoreapp3.1/Lab3.RazorAssemblyInfo.cache
+/Users/admin/Desktop/DoAn1_Lab3/Lab3/obj/Debug/netcoreapp3.1/Lab3.RazorAssemblyInfo.cs
+/Users/admin/Desktop/DoAn1_Lab3/Lab3/obj/Debug/netcoreapp3.1/Lab3.AssemblyInfoInputs.cache
+/Users/admin/Desktop/DoAn1_Lab3/Lab3/obj/Debug/netcoreapp3.1/Lab3.AssemblyInfo.cs

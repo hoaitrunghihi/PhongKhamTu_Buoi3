@@ -1,0 +1,27 @@
+@{
+    ViewData["title"] = " Product Pages";
+}
+@model List<ProductModel>
+
+    <h1> @ViewData["Title"] </h1>
+    <a class = "bnt bnt-primary" asp-controller="Product" asp-action = "Create>"> Create new product </a>
+    <hr/>
+    <div class = "row">
+        @foreach ( var item in Model)
+        {
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="~/images/@item.ProductImage" alt="">
+                    <div class = "card-body">
+                        <h4 class="card-title">@item.ProductName</h4>
+                        <p class="card-text">@item.Descriptions</p>
+                        <div class="card-footer">
+                            <a asp-controller="Detail" asp-action="Index" asp-route-id="@item.ProductId"
+                             asp-route-name="@item.ProductName" class-" btn btn-primary">Details</a>
+                             <a href="#" class="btn btn-info">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div> 
